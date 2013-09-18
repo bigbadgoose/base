@@ -1,16 +1,46 @@
-*.rbc
+# Mac
+.DS_Store
+
+
+# Windows
+Thumbs.db
+
+
+# Other
+.cache
+.config
+.fontconfig
+.local
+.pki
+
+
+# Backup
+*~
+
+
+# Enviroment Variables
+.env
+.env.backup
+local.env
+local.env.backup
+
+
+# Local Gemfile for developing without sharing dependencies
+.gemfile
+
+# Vim
+*.swp
+*.swo
+
+
+# Sass
 *.sassc
 .sass-cache
-capybara-*.html
-.rspec
-/.bundle
-/vendor/bundle
+
+
+# Stuff
+*.rbc
 /log/*
 /tmp/*
 /db/*.sqlite3
-/public/system/*
-/coverage/
-/spec/tmp/*
 **.orig
-rerun.txt
-pickle-email-*.html
